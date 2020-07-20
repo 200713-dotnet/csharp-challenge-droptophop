@@ -1,20 +1,77 @@
 {
   "format": 1,
   "restore": {
-    "/home/fred/2007_13_dotnet/coding_challenges/Palindrome/Palindrome.Testing/Palindrome.Testing.csproj": {}
+    "/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Testing/Palindrome.Testing.csproj": {}
   },
   "projects": {
-    "/home/fred/2007_13_dotnet/coding_challenges/Palindrome/Palindrome.Testing/Palindrome.Testing.csproj": {
+    "/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/Palindrome.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/fred/2007_13_dotnet/coding_challenges/Palindrome/Palindrome.Testing/Palindrome.Testing.csproj",
-        "projectName": "Palindrome.Testing",
-        "projectPath": "/home/fred/2007_13_dotnet/coding_challenges/Palindrome/Palindrome.Testing/Palindrome.Testing.csproj",
-        "packagesPath": "/home/fred/.nuget/packages/",
-        "outputPath": "/home/fred/2007_13_dotnet/coding_challenges/Palindrome/Palindrome.Testing/obj/",
+        "projectUniqueName": "/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/Palindrome.Domain.csproj",
+        "projectName": "Palindrome.Domain",
+        "projectPath": "/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/Palindrome.Domain.csproj",
+        "packagesPath": "/home/hop/.nuget/packages/",
+        "outputPath": "/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/fred/.nuget/NuGet/NuGet.Config"
+          "/home/hop/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "xUnit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Testing/Palindrome.Testing.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Testing/Palindrome.Testing.csproj",
+        "projectName": "Palindrome.Testing",
+        "projectPath": "/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Testing/Palindrome.Testing.csproj",
+        "packagesPath": "/home/hop/.nuget/packages/",
+        "outputPath": "/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Testing/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hop/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -24,7 +81,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/Palindrome.Domain.csproj": {
+                "projectPath": "/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/Palindrome.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
