@@ -1,0 +1,9 @@
+/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/obj/Debug/netstandard2.0/Palindrome.Domain.csprojAssemblyReference.cache
+/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/obj/Debug/netstandard2.0/Palindrome.Domain.AssemblyInfoInputs.cache
+/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/obj/Debug/netstandard2.0/Palindrome.Domain.AssemblyInfo.cs
+/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/obj/Debug/netstandard2.0/Palindrome.Domain.csproj.CoreCompileInputs.cache
+/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/bin/Debug/netstandard2.0/Palindrome.Domain.deps.json
+/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/bin/Debug/netstandard2.0/Palindrome.Domain.dll
+/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/bin/Debug/netstandard2.0/Palindrome.Domain.pdb
+/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/obj/Debug/netstandard2.0/Palindrome.Domain.dll
+/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/obj/Debug/netstandard2.0/Palindrome.Domain.pdb

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/fred/2007_13_dotnet/coding_challenges/Palindrome/Palindrome.Domain/Palindrome.Domain.csproj": {}
+    "/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/Palindrome.Domain.csproj": {}
   },
   "projects": {
-    "/home/fred/2007_13_dotnet/coding_challenges/Palindrome/Palindrome.Domain/Palindrome.Domain.csproj": {
+    "/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/Palindrome.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/fred/2007_13_dotnet/coding_challenges/Palindrome/Palindrome.Domain/Palindrome.Domain.csproj",
+        "projectUniqueName": "/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/Palindrome.Domain.csproj",
         "projectName": "Palindrome.Domain",
-        "projectPath": "/home/fred/2007_13_dotnet/coding_challenges/Palindrome/Palindrome.Domain/Palindrome.Domain.csproj",
-        "packagesPath": "/home/fred/.nuget/packages/",
-        "outputPath": "/home/fred/2007_13_dotnet/coding_challenges/Palindrome/Palindrome.Domain/obj/",
+        "projectPath": "/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/Palindrome.Domain.csproj",
+        "packagesPath": "/home/hop/.nuget/packages/",
+        "outputPath": "/home/hop/revature/week_2/csharp-challenge-droptophop/Palindrome.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/fred/.nuget/NuGet/NuGet.Config"
+          "/home/hop/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -41,6 +41,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "xUnit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             }
           },
           "imports": [
